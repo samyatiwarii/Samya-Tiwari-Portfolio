@@ -48,7 +48,7 @@ const socialPlatforms = [
     ),
     gradient: 'from-slate-800 to-slate-600',
     shadowColor: 'rgba(51, 65, 85, 0.3)',
-    link: 'https://twitter.com',
+    link: 'https://x.com/SamyaaTiwarii',
     description: 'Social Updates'
   },
   {

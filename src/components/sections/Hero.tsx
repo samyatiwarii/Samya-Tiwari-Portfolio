@@ -70,8 +70,7 @@ background: "radial-gradient(ellipse 70% 70% at 50% 50%, transparent 10%, var(--
             texts={["Samya Tiwari", "Samya Tiwari"]}
             font={{
               fontFamily: "Cormorant Garamond, serif",
-              fontSize: "120px",
-              fontWeight: 300,
+fontSize: "120px",              fontWeight: 300,
             }}
             color="rgb(26, 24, 22)"
             spread={4}

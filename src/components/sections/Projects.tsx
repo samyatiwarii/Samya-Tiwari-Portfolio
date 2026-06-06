@@ -10,8 +10,8 @@ const projects = [
     description:
       "Creator × brand collaboration platform for India's creator economy. Responsive frontend with scalable component architecture and campaign management workflows.",
     stack: ["TypeScript", "React", "Node.js"],
-    link: "https://github.com/samyatiwarii",
-    year: "2024",
+link: "https://github.com/samyatiwarii/Collabor-ate",
+    year: "2026",
   },
   {
     index: "02",
@@ -19,8 +19,8 @@ const projects = [
     description:
       "Centralized cab-sharing platform for university students. Real-time UI updates, WhatsApp deep linking with pre-filled messaging — no more fragmented coordination.",
     stack: ["JavaScript", "HTML", "CSS"],
-    link: "https://github.com/samyatiwarii",
-    year: "2024",
+link: "https://github.com/samyatiwarii/muj-cabshare",
+    year: "2026",
   },
   {
     index: "03",
@@ -28,8 +28,8 @@ const projects = [
     description:
       "Campus marketplace enabling students to buy, sell, and connect. Categorized listings for streamlined product discovery, optimized for mobile and desktop.",
     stack: ["JavaScript", "HTML", "CSS"],
-    link: "https://github.com/samyatiwarii",
-    year: "2024",
+link: "https://github.com/samyatiwarii/mujkart",
+    year: "2026",
   },
   {
     index: "04",

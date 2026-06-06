@@ -7,14 +7,14 @@ import {
   FaReact, FaNodeJs, FaGithub, FaPython, FaHtml5, FaCss3Alt,
 } from "react-icons/fa";
 import {
-  SiTypescript, SiNextdotjs, SiTailwindcss, SiFlask,
-  SiJavascript, SiC, SiGit,
+  SiTypescript, SiNextdotjs, SiTailwindcss,
+  SiJavascript, SiC, SiGit, SiFramer, SiVercel,
 } from "react-icons/si";
 
 const skills = [
   { category: "Languages", items: ["C", "Python", "JavaScript", "TypeScript", "HTML", "CSS"] },
-  { category: "Frameworks", items: ["React", "Node.js", "Flask", "Next.js"] },
-  { category: "Tools", items: ["Git", "GitHub", "VS Code", "Matplotlib"] },
+  { category: "Frameworks", items: ["React", "Next.js", "Node.js", "Express.js", "Tailwind CSS", "Framer Motion"] },
+  { category: "Tools", items: ["Git", "GitHub", "VS Code", "Vercel"] },
   { category: "Concepts", items: ["DSA", "REST APIs", "Responsive Design", "OOP", "DBMS"] },
 ];
 
@@ -27,10 +27,10 @@ const orbitIcons = [
   { Icon: SiJavascript, color: "#F7DF1E" },
   { Icon: FaHtml5, color: "#E34F26" },
   { Icon: FaCss3Alt, color: "#1572B6" },
-  { Icon: SiFlask, color: "#1a1816" },
+  { Icon: SiFramer, color: "#0055FF" },
   { Icon: FaGithub, color: "#1a1816" },
   { Icon: SiGit, color: "#F05032" },
-  { Icon: SiC, color: "#A8B9CC" },
+  { Icon: SiVercel, color: "#1a1816" },
 ];
 
 const orbitCount = 3;
@@ -115,7 +115,7 @@ export default function Skills() {
       <div className="mb-24 py-10" style={{ borderTop: "1px solid rgba(61,53,48,0.06)", borderBottom: "1px solid rgba(61,53,48,0.06)" }}>
         <ScrollVelocity
           texts={[
-            "React · TypeScript · Python · Node.js · Flask · Next.js · Git · REST APIs ·",
+            "React · TypeScript · Python · Node.js · Next.js · Framer Motion · Vercel ·",
             "DSA · Responsive Design · OOP · DBMS · C · HTML · CSS · JavaScript ·",
           ]}
           velocity={35}
