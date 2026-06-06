@@ -94,7 +94,7 @@ export default function Contact() {
         {/* Header */}
         <div className={`mb-16 transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <p className="text-xs tracking-[0.35em] uppercase mb-4 font-mono" style={{ color: "var(--muted)" }}>
-            04 / contact
+            / contact
           </p>
           <h2 className="font-display font-light leading-none" style={{ fontSize: "clamp(3.5rem, 10vw, 9rem)", color: "var(--cream)", letterSpacing: "-0.03em" }}>
             let's{" "}

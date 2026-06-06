@@ -35,7 +35,7 @@ export default function About() {
             className="text-xs tracking-[0.35em] uppercase mb-6 font-mono"
             style={{ color: "var(--accent)" }}
           >
-            01 / about
+           / about
           </motion.p>
 
           <motion.h2

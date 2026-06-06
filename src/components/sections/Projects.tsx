@@ -159,7 +159,7 @@ export default function Projects() {
               className="text-xs tracking-[0.35em] uppercase mb-4 font-mono"
               style={{ color: "var(--accent)" }}
             >
-              02 / projects
+               / projects
             </motion.p>
             <motion.h2
               initial={{ opacity: 0, y: 24 }}
