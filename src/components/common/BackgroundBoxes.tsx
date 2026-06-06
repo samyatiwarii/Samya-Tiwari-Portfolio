@@ -23,7 +23,8 @@ function Box({ j, i }: { j: number; i: number }) {
       className="w-24 h-12 border-r border-t border-stone-200 relative"
       onHoverStart={() => setHoverColor(getRandomColor())}
       whileHover={{ backgroundColor: hoverColor, transition: { duration: 0 } }}
-animate={{ backgroundColor: "rgba(0,0,0,0)", transition: { duration: 1.5 } }}    >
+      animate={{ backgroundColor: "rgba(0,0,0,0)", transition: { duration: 1.5 } }}
+    >
       {j % 2 === 0 && i % 2 === 0 ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -41,8 +42,8 @@ animate={{ backgroundColor: "rgba(0,0,0,0)", transition: { duration: 1.5 } }}   
 }
 
 export const Boxes = React.memo(() => {
-  const rows = new Array(100).fill(1);
-  const cols = new Array(80).fill(1);
+  const rows = new Array(60).fill(1);
+  const cols = new Array(40).fill(1);
 
   return (
     <div
