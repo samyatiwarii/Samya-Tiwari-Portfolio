@@ -25,7 +25,7 @@ export default function Footer() {
           className="font-mono text-[11px] tracking-[0.2em] uppercase"
           style={{ color: "rgba(61,53,48,0.55)" }}
         >
-          © 2025 Samya Tiwari
+          © 2026 Samya Tiwari
         </span>
 
         {/* Center — nav links */}
