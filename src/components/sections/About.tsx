@@ -102,8 +102,7 @@ export default function About() {
               className="flex items-center gap-2 px-4 py-3"
               style={{ borderBottom: "1px solid rgba(61,53,48,0.06)" }}
             >
-              {["#c8b89a40", "#c8b89a25", "#c8b89a15"].map((c, i) => (
-                <span key={i} className="w-2.5 h-2.5 rounded-full" style={{ background: c }} />
+   {["#ff5f57", "#febc2e", "#28c840"].map((c, i) => (             <span key={i} className="w-2.5 h-2.5 rounded-full" style={{ background: c }} />
               ))}
               <span className="text-[10px] font-mono ml-2" style={{ color: "var(--muted)" }}>
                 samya.ts
@@ -122,31 +121,31 @@ export default function About() {
                 {"  "}
                 <span style={{ color: "var(--muted)" }}>role</span>
                 {" : "}
-                <span style={{ color: "#7a9978" }}>"CS @ MUJ · she/her"</span>
+                <span style={{ color: "#c084fc" }}>"CS @ MUJ · she/her"</span>
                 {",\n"}
                 {"  "}
                 <span style={{ color: "var(--muted)" }}>focus</span>
                 {" : ["}
-                <span style={{ color: "#7a9978" }}>"full-stack"</span>
+                <span style={{ color: "#c084fc" }}>"full-stack"</span>
                 {", "}
-                <span style={{ color: "#7a9978" }}>"AI/ML"</span>
+                <span style={{ color: "#c084fc" }}>"AI/ML"</span>
                 {", "}
-                <span style={{ color: "#7a9978" }}>"open-source"</span>
+                <span style={{ color: "#c084fc" }}>"open-source"</span>
                 {"],\n"}
                 {"  "}
                 <span style={{ color: "var(--muted)" }}>now</span>
                 {" : "}
-                <span style={{ color: "#7a9978" }}>"GSSoC '26 · IEEE CS"</span>
+                <span style={{ color: "#c084fc" }}>"GSSoC '26 · IEEE CS"</span>
                 {",\n"}
                 {"  "}
                 <span style={{ color: "var(--muted)" }}>from</span>
                 {" : "}
-                <span style={{ color: "#7a9978" }}>"Bhopal, India"</span>
+                <span style={{ color: "#c084fc" }}>"Bhopal, India"</span>
                 {",\n"}
                 {"  "}
                 <span style={{ color: "var(--muted)" }}>building</span>
                 {" : "}
-                <span style={{ color: "#7a9978" }}>"things that matter"</span>
+                <span style={{ color: "#c084fc" }}>"things that matter"</span>
                 {",\n}"}
               </code>
             </pre>
